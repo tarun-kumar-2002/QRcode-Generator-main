@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - Amar Singh </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <div class="hero">
+        <h1>QR Code <span>Generator</span></h1>
+    <input type="text" id="inputText" placeholder="Enter text or link">
+    <button id="generateBtn" onclick="generateQR()">Generate QR Code</button>
+    <div id="qrcode"></div>
+    <button id="downloadBtn" onclick="downloadQR()">Download</button>
+    <footer>
+        <p>Build by <a href="https://github.com/amarsingh-81" target="_blank">Amar Singh </a></p>
+        
+    </footer>
+</div>
+
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+
